@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "4.0.3"
+}
+
+group 'com.groovycoder'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testcontainers:testcontainers:1.10.2'
+}
